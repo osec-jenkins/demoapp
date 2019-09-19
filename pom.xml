@@ -20,7 +20,7 @@
 		<docker.image.base>java</docker.image.base>
 
 		<checkstyle.failOnViolation>false</checkstyle.failOnViolation>
-		<checkstyle.failsOnError>true</checkstyle.failsOnError>
+		<checkstyle.failsOnError>false</checkstyle.failsOnError>
 		<coverage.minLineRatio>0.00</coverage.minLineRatio>
 		<coverage.minBranchRatio>0.00</coverage.minBranchRatio>
 
