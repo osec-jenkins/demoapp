@@ -13,7 +13,7 @@ class ApplicationController {
     private static final Random RANDOM = new Random();
     private static final Logger LOG = LoggerFactory.getLogger(ApplicationController.class);
 
-    private final int drawBound;
+    final private int drawBound;
 
     ApplicationController(@Value("${draw.bound}") int drawBound) {
         this.drawBound = drawBound;
