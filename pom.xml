@@ -21,8 +21,8 @@
 
 		<checkstyle.failOnViolation>false</checkstyle.failOnViolation>
 		<checkstyle.failsOnError>false</checkstyle.failsOnError>
-		<coverage.minLineRatio>0.00</coverage.minLineRatio>
-		<coverage.minBranchRatio>0.00</coverage.minBranchRatio>
+		<coverage.minLineRatio>0.80</coverage.minLineRatio>
+		<coverage.minBranchRatio>0.80</coverage.minBranchRatio>
 
 		<docker-maven-plugin.version>1.2.0</docker-maven-plugin.version>
 		<maven-checkstyle-plugin.version>3.1.0</maven-checkstyle-plugin.version>
