@@ -22,7 +22,7 @@ class ApplicationController {
     @GetMapping("draw")
     int drawRandom() {
         int randomValue = RANDOM.nextInt(drawBound);
-        LOG.debug("Drawn {} from <0, {})", randomValue, drawBound);
+        LOG.debug("Drawn {}", randomValue, drawBound);
         return randomValue;
     }
 }
